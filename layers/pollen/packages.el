@@ -33,11 +33,15 @@
   '(pollen-mode
     (company-pollen :requires company)))
 
+;; The layer will still work if you uncomment the defer, mode and magic lines
+;; below. But if you open a Pollen preprocessor file (.pp), this will force the
+;; pollen major mode, rather than using the minor mode and setting the correct
+;; major mode for the output format.
 (defun pollen/init-pollen-mode ()
   (use-package pollen-mode
-               :defer t
-               :mode "\\.pm\\'"
-               :magic "#lang pollen"
+               ; :defer t
+               ; :mode "\\.pm\\'"
+               ; :magic "#lang pollen"
                ))
 
 (defun pollen/init-company-pollen ()
