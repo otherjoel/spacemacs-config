@@ -46,6 +46,7 @@ values."
      markdown
      pollen
      html
+     velcrovan
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
