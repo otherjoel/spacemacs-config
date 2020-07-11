@@ -2,6 +2,9 @@
 💾🚀 Spacemacs configuration files and layers for the kinds of things I do: Racket, Pollen, Markdown
 and web development.
 
+(I don’t maintain this repo any more; as soon as I got them working to this level, I [started over
+with Doom Emacs][3].)
+
 These files [go][1] in `~/.spacemacs.d`. See also the value in
 `dotspacemacs-configuration-layer-path`.
 
@@ -22,3 +25,4 @@ this properly in Spacemacs.) See [layers/pollen/README.md](layers/pollen/README.
 
 [1]: https://www.spacemacs.org/doc/DOCUMENTATION.html#orgheadline34
 [2]: https://pollenpub.com
+[3]: https://github.com/otherjoel/doom-emacs-config
